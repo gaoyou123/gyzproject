@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <style type="text/css">
+        #title1{
+            position: fixed;}
+            #s1{
+                display: inline-block;
+                width: 10%;
+margin-bottom: 30px;
+
+        }
+            #s2{
+                width: 60%;
+
+            }
+            #d1{
+                margin-left:20% ;
+
+            }
+            #z2{
+                margin-top: 20px;
+            }
+
+        .form-horizontal{
+            margin-top: 15px;
+        }
+        #c1{
+            width: 90%;
+            margin: 30px auto;
+        }
+        #all{
+
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 6%;
+background-color: whitesmoke;
+        }
+        #d2{
+            margin-left: 60px;
+        }
+        #i1{
+            width: 50px;
+        }
+        #gyz2{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-fixed-top navbar-default" id="title1">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a href="../page.html"><div class="navbar-header"><img src="image/E6FEBA2D-DA55-4416-8B20-1DA0EB296C0E.png" alt="" class="img-circle" id="i1">  </div></a>
+        <div class="navbar-header" id="gyz2">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="../page.html">主页</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+            <ul class="nav navbar-nav">
+                <li><a href="../zjm/index/bookstrap/sell.html">二手商品买卖</a></li></li>
+                <li class="active"><a href="ex.html">失物招领 <span class="sr-only">(current)</span></a></li>
+                <li><a href="../spy/index课代表2.html">课代表</a></li></li>
+
+
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../geren.html">个人主页</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-user" aria-hidden="true">注册\登陆</span> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../zhuce/demo.html">登陆</a></li>
+                        <li><a href="../zhuce/register.html">注册</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<div id="all">
+<form class="form-horizontal" id="z2">
+    <br>
+    <div class="form-group" id="d1">
+        <label  class="col-sm-2 control-label" >标 题 :</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="s2" placeholder="请输入标题">
+        </div>
+    </div>
+
+
+
+<textarea class="form-control" rows="20" placeholder="请输入内容" id="c1"></textarea>
+
+    <div class="form-group" id="d2">
+
+        <input type="file" id="exampleInputFile">
+        <p class="help-block">请选择图片</p>
+    </div>
+
+    <label class="col-sm-2 control-label" >请选择物品种类</label><select class="form-control" id="s1">
+    <option>手机</option>
+    <option>学生证</option>
+    <option>银行卡</option>
+    <option>书籍</option>
+    <option>配件</option>
+    <option>其他</option>
+</select>
+
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1" id="d4">
+        提交
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6 col-md-3">
+
+                            是否确认提交
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a type="button" class="btn btn-default"  href="ex.html">是</a>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">否</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2" id="d4">
+        离开
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6 col-md-3" >
+
+                               是否确认离开
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a type="button" class="btn btn-default"  href="ex.html">是</a>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">否</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+    <div>
+        <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+        <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+        <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

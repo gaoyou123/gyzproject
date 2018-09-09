@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        body{
+
+        }
+#d4{
+    position: absolute;
+    right: 180px;
+
+}
+        #title1{
+            position: fixed;
+        }
+        #search1{
+            margin-left: 15%;
+
+            width: 70%;
+
+        }
+        #content1{
+            width: 80%;
+            margin: 0px auto;
+        }
+        #content2{
+            margin-top: 20px;
+        }
+        #b1{
+            margin-left: 85%;
+            margin-bottom: 8px;
+        }
+        #z1{
+            width: 80%;
+            margin-left: 10%;
+        }
+        #i1{
+            width: 50px;
+        }
+        #z2{
+            margin-left: 10px;
+        }
+        #z3{
+            margin-left: 38%;
+        }
+#b10{
+    margin-left: 85%;
+    margin-bottom: 80px;
+}
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-fixed-top navbar-default" id="title1">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a href="../page.html"><div class="navbar-header"><img src="image/E6FEBA2D-DA55-4416-8B20-1DA0EB296C0E.png" alt="" class="img-circle" id="i1">  </div></a>
+        <div class="navbar-header" id="z2">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="../page.html">主页</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+            <ul class="nav navbar-nav">
+                <li><a href="../zjm/index/bookstrap/sell.html">二手商品买卖</a></li></li>
+                <li class="active"><a href="ex.html">失物招领 <span class="sr-only">(current)</span></a></li>
+                <li><a href="../spy/index课代表2.html">课代表</a></li></li>
+
+
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../geren.html">个人主页</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-user" aria-hidden="true">注册\登陆</span> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../zhuce/demo.html">登陆</a></li>
+                        <li><a href="../zhuce/register.html">注册</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
+<div class="jumbotron">
+    <div id="z1"><h1>板块公告</h1>
+        <p>我国《物权法》规定，权利人领取遗失物时，应当向拾得人或有关部门支付保管费等必要费用。但现行民事法律和最高人民法院的司法解释，都没有对报酬请求权给出规定。目前，中国的拾到者不享有报酬请求权，但不排除有些失主在取回失物时，主动给付拾得人一定报酬。这是失主自愿行为，属民法中的赠与。再根据我国《民法通则》第七十九条规定，拾到遗失物、漂流物或者失散的饲养动物，应当归还失主，因此而支出的费用由失主偿还。也就是说，拾得的财物其所有权人仍为失主，而不是拾到财物的人，所有权不因为财物遗失而发生转移，因而拾到财物必须归还失主。至于酬金，双方可以友好协商，如果失主不愿意支付酬金，拾得人不得强要酬金。
+        </p>
+        <p><a class="btn btn-primary btn-lg" href="https://baike.baidu.com/item/失物招领/6854044#viewPageContent" role="button">了解更多</a></p>
+    </div></div>
+
+<div class="input-group" id="search1">
+    <span class="input-group-addon" id="sizing-addon2"> <div class="glyphicon glyphicon-search"></div></span>
+    <input type="text" class="form-control" placeholder="Search for...">
+    <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go!</button>
+      </span>
+
+
+</div>
+
+<ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="#">综合</a></li>
+    <li role="presentation"><a href="index1.1.html">手机</a></li>
+    <li role="presentation"><a href="index1.2.html">学生证</a></li>
+    <li role="presentation"><a href="index1.3.html"> 银行卡</a></li>
+    <li role="presentation"><a href="index1.4.html">书籍 </a></li>
+    <li role="presentation"><a href="index1.5.html"> 配件</a></li>
+    <li role="presentation"><a href="index1.6.html">其他</a></li>
+</ul>
+
+
+<div id="content1">
+    <div class="panel panel-default" id="content2" >
+        <div class="panel-heading" ;"><a href="index1.html">寻找篮球</a></div>
+    <div class="panel-body">
+        <blockquote>本人不慎，于2007年3月5日上午8时左右在朝阳公园遗失篮球一个。拾到者请拨手机13693348177或联系qq：123123123123与
+            本人联系。面谢。
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="d4">
+                查看图片
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">事物图片</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-6 col-md-3">
+                                    <a href="#" class="thumbnail">
+                                        <img src="image/CD2E308C-A12B-47C4-9DB8-ECAC730C3037.png" alt="">
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div></blockquote>
+        </blockquote>
+    </div>
+</div>
+
+<div class="panel panel-default" >
+    <div class="panel-heading" ><a href="index1.html">寻找篮球</a></div>
+<div class="panel-body">
+    <blockquote>本人不慎，于2007年3月5日上午8时左右在朝阳公园遗失篮球一个。拾到者请拨手机13693348177或联系qq：123123123123与
+        本人联系。面谢。<!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="d4">
+            查看图片
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">事物图片</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/CD2E308C-A12B-47C4-9DB8-ECAC730C3037.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div></blockquote>
+</div>
+</div>
+<div class="panel panel-default" >
+    <div class="panel-heading" ;"><a href="index1.html">寻找篮球</a></div>
+<div class="panel-body">
+    <blockquote>本人不慎，于2007年3月5日上午8时左右在朝阳公园遗失篮球一个。拾到者请拨手机13693348177或联系qq：123123123123与
+        本人联系。面谢。<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="d4">
+            查看图片
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">事物图片</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/CD2E308C-A12B-47C4-9DB8-ECAC730C3037.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div></blockquote></blockquote>
+</div>
+</div>
+<div class="panel panel-default" >
+    <div class="panel-heading" ;"><a href="index1.html">寻找篮球</a></div>
+<div class="panel-body">
+    <blockquote>本人不慎，于2007年3月5日上午8时左右在朝阳公园遗失篮球一个。拾到者请拨手机13693348177或联系qq：123123123123与
+        本人联系。面谢。<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="d4">
+            查看图片
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">事物图片</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/CD2E308C-A12B-47C4-9DB8-ECAC730C3037.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div></blockquote></blockquote>
+</div>
+</div>
+<div class="panel panel-default" >
+    <div class="panel-heading" ;"><a href="index1.html">寻找篮球</a></div>
+<div class="panel-body">
+    <blockquote>本人不慎，于2007年3月5日上午8时左右在朝阳公园遗失篮球一个。拾到者请拨手机13693348177或联系qq：123123123123与
+        本人联系。面谢。<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="d4">
+            查看图片
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">事物图片</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/CD2E308C-A12B-47C4-9DB8-ECAC730C3037.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div></blockquote></blockquote>
+</div>
+</div>
+<div class="panel panel-default" >
+    <div class="panel-heading" ;"><a href="index1.html">寻找篮球</a></div>
+<div class="panel-body">
+    <blockquote>本人不慎，于2007年3月5日上午8时左右在朝阳公园遗失篮球一个。拾到者请拨手机13693348177或联系qq：123123123123与
+        本人联系。面谢。<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="d4">
+            查看图片
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">事物图片</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/CD2E308C-A12B-47C4-9DB8-ECAC730C3037.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div></blockquote></blockquote>
+</div>
+</div>
+<div class="panel panel-default" >
+    <div class="panel-heading" ;"><a href="index1.html">寻找篮球</a></div>
+<div class="panel-body">
+    <blockquote>本人不慎，于2007年3月5日上午8时左右在朝阳公园遗失篮球一个。拾到者请拨手机13693348177或联系qq：123123123123与
+        本人联系。面谢。<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="d4">
+            查看图片
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">事物图片</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/CD2E308C-A12B-47C4-9DB8-ECAC730C3037.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div></blockquote></blockquote>
+</div>
+</div>
+<div class="panel panel-default" >
+    <div class="panel-heading" ;"><a href="index1.html">寻找篮球</a></div>
+<div class="panel-body">
+    <blockquote>本人不慎，于2007年3月5日上午8时左右在朝阳公园遗失篮球一个。拾到者请拨手机13693348177或联系qq：123123123123与
+        本人联系。面谢。<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="d4">
+            查看图片
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">事物图片</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/CD2E308C-A12B-47C4-9DB8-ECAC730C3037.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div></blockquote></blockquote>
+</div>
+</div>
+<div class="panel panel-default" >
+    <div class="panel-heading" ;"><a href="index1.html">寻找篮球</a></div>
+<div class="panel-body">
+    <blockquote>本人不慎，于2007年3月5日上午8时左右在朝阳公园遗失篮球一个。拾到者请拨手机13693348177或联系qq：123123123123与
+        本人联系。面谢。<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="d4">
+            查看图片
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">事物图片</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/CD2E308C-A12B-47C4-9DB8-ECAC730C3037.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div></blockquote></blockquote>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+<nav aria-label="Page navigation" id="z3">
+    <ul class="pagination">
+        <li>
+            <a href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li>
+            <a href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+
+</nav>
+
+</div>
+<button type="button" class="btn btn-primary" id="b1" onclick="javascript:window.location.href='fabu.html'"> 我要发布</button></div>
+<button type="button" class="btn btn-success" id="b10" onclick="javascript:window.location.href='mine.html'"> 我的发布</button></div></a>
+
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
